@@ -1,0 +1,2 @@
+# textlite
+Lightweight NLP Package
