@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textlite"
+version = "0.1.0"
+description = "Lightweight semantic text utilities powered by BERT and Sentence Transformers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Mantri"}]
+dependencies = []
+
+[tool.setuptools]
+packages = ["textlite"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
